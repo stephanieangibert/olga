@@ -1,0 +1,170 @@
+*{
+    font-family: 'Cousine', monospace;
+}
+
+header{
+    background-color:rgb(231, 198, 75); 
+    width: 100%;
+    height: 20vh;
+ 
+}
+.slider{
+    height: 60vh;
+    
+}
+.informations{
+    height: 20vh;
+    
+}
+.nav-link{
+    color: black;
+    font-size: 28px;
+    
+}
+.nav-link:hover{
+    color:black;
+    background-color: white;
+    border-radius:3px;
+    transform: scale(1.2);
+}
+.navbar-toggler{
+    background-color: white!important;
+}
+ul{
+    z-index: 888;
+    position: relative;
+    background-color:rgb(231, 198, 75) ;
+}
+#slideShow{
+    width: 90%;
+    margin:5% auto;
+    position: relative;
+    height: 560px;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+section{
+    width:100%;
+    height: 560px;
+    overflow: hidden;      
+    margin-top: 2%;
+}
+img{
+    background-size: cover;
+}
+
+h1{
+    position: absolute;  
+    z-index: 40;
+    font-weight:bold; 
+    width: 295px;  
+   
+}
+.transparence{
+    width: 345px;
+    height: 55px;
+    background-color: white;
+    z-index: 40;
+    position: absolute;
+    top:20%;
+    left: 65%;
+    display: flex;
+    justify-content: center;
+    opacity:0.7;
+    filter:alpha(opacity=50);	  
+
+}
+.carte{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border-right: grey 2px solid;
+    border-bottom: 2px solid grey;   
+    
+    
+}
+.horaire{
+   display: none;
+}
+.carteBis{
+ display: block;
+
+}
+ul{
+    list-style-type: none;
+}
+.carte1{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border-right: grey 2px solid;
+    border-bottom: 2px solid grey;
+       
+}
+.infos{
+    transform: translate(-3000px);
+}
+
+.carte2{
+    display: flex;
+    flex-direction: row;   
+    justify-content:center;
+    align-items: center;
+    height: 70px;
+    background-color:rgb(231, 198, 75) ;
+    border-bottom: 2px solid grey;
+    border-right: grey 2px solid;
+    font-size: 20px;
+   
+}
+.carte2 p{
+    font-size:122%;
+}
+
+.fa-clock {
+    font-size: 170%;
+}
+.fa-map-marker-alt {
+    font-size: 170%;
+    cursor:pointer;
+}
+.fa-phone-volume{
+    font-size: 170%;
+    padding-right: 22px;
+}
+.rue{
+    margin-bottom: 0;
+    text-align: center;
+}
+.fa-angle-down{
+    cursor: pointer;
+}
+.encartGoogleMap{
+    width: 500px;
+    height:500px;
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    z-index: 100;
+   
+}
+.mapBis{
+display: block;
+}
+.fa-times-circle{
+    position: absolute;
+    top:5%;
+    right: -16%;
+    font-size: 220%;
+}
+.fa-times-circle{
+    cursor: pointer;
+}
